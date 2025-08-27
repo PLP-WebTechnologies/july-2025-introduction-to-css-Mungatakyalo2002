@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.my_header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.nav {
+  background-color: #4CAF50;
+  padding: 0px;
+  margin-right: 10px;
+}
+  
+
+#navbar {
+  margin: 0;
+  list-style:none;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#navbar li{
+  margin-left: 20px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+  background-color: #4CAF50;
+  border-radius: 4px;
+}
+
+h2 {
+  color: purple;
+  font-weight: bold;
+
+}
+
+.hero {
+  background-color: white;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 8px;
+  border: 2 px solid black;
+}
+
+#services {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+#services ul {
+  background-color: white;;
+  list-style: none;
+  padding: 0;
+}
+
+#services li {
+  background-color: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid greenyellow;
+  border-radius: 4px;
+}
+
+#portfolio {
+  background-color: white;
+  padding: 30px 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+#alooo {
+  color: red;
+  font-style: italic;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+#testimonials blockquote {
+  font-style: italic;
+  background-color: lightgrey;
+  padding: 20px;
+  border-left: 5px solid #16a085;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+#testimonials p strong {
+  display: block;
+  margin-top: 5px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+#contact {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-top: 2px solid greenyellow;
+}
+
+#contact address {
+  font-style: normal;
+  line-height: 1.8;
+}
+
+#contact a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: orchid;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
